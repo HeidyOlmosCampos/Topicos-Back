@@ -1,0 +1,47 @@
+{
+  "name": "topicos-backend",
+  "version": "1.0.0",
+  "description": "Plantilla para hacer una API REST con NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "Heidy Olmos Campos",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.7.0",
+    "@hapi/boom": "^10.0.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "gpt3-tokenizer": "^1.1.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20",
+    "openai": "^3.2.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
